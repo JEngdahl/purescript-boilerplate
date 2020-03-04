@@ -1,12 +1,14 @@
 {
-  "name": "purescript-intro",
+  "name": "purescript-base",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A base configuration for a PureScript project.",
   "scripts": {
-    "test": "spago test",
-    "start": ""
+    "container": "docker run -it -v ${PWD}:/app purescript-starter-project:dev",
+    "build": "docker build -t purescript-starter-project:dev .",
+    "repl": "npm run container spago repl",
+    "spago-install": "npm run container spago install",
+    "test": "npm run container spago test"
   },
-  "author": "",
+  "author": "@JEngdahl",
   "license": "ISC"
 }
