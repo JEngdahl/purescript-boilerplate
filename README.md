@@ -1,5 +1,6 @@
 # PureScript Boilerplate
-![Docker Image CI](https://github.com/JEngdahl/purescript-boilerplate/workflows/Docker%20Image%20CI/badge.svg)
+
+![Docker Image CI](https://github.com/JEngdahl/purescript-boilerplate/workflows/Docker%20Image%20CI/badge.svg?branch=master)
 
 A minimal PureScript project repo, ideal for starting your own project!
 
