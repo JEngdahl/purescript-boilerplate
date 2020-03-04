@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "A base configuration for a PureScript project.",
   "scripts": {
-    "container": "docker run -it -v ${PWD}:/app purescript-starter-project:dev",
+    "container": "npm run container-base bash",
+    "container-base": "docker run -it -v ${PWD}:/app purescript-starter-project:dev",
     "build": "docker build -t purescript-starter-project:dev .",
-    "repl": "npm run container spago repl",
-    "spago-install": "npm run container spago install",
-    "test": "npm run container spago test"
+    "repl": "npm run container-base spago repl",
+    "spago-install": "npm run container-base spago install",
+    "test": "npm run container-base spago test"
   },
   "author": "@JEngdahl",
   "license": "ISC"

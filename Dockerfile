@@ -11,5 +11,6 @@ RUN npm -g config set user root
 RUN npm install -g purescript spago
 
 RUN npm install
+RUN spago install
 
 CMD ["npm", "test"]
