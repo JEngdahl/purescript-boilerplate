@@ -8,7 +8,7 @@
     "build": "docker build -t purescript-starter-project:dev .",
     "repl": "npm run container-base spago repl",
     "spago-install": "npm run container-base spago install",
-    "test": "npm run purescript-starter-project:dev"
+    "test": "docker run purescript-starter-project:dev"
   },
   "author": "@JEngdahl",
   "license": "ISC"
