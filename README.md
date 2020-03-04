@@ -4,7 +4,7 @@ A minimal PureScript project repo, ideal for starting your own project!
 
 ## About
 
-There are teo dependencies for this starter project, please make sure they are installed on your machine before running any scripts.
+There are two dependencies for this project, please make sure they are installed on your machine before running any scripts.
 
 [Docker](https://docs.docker.com/install/)
 
